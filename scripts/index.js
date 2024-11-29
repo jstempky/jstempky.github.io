@@ -67,26 +67,29 @@ const jsonContent = [
 //const footerEl = document.getElementByClassName("footer");
 //anchorEl.innerHTML = "Joey";
 //footerEl.innerHTML = "Footer";
-document.addEventListener('DOMContentLoaded', function() {
-const mainEl = document.getElementById('main');
-	jsonContent.map((section) => {
-		const sectionEl = document.createElement('section');
-		sectionEl.id = section.section;
-		sectionEl.className = 'section';
-		const h2El = document.createElement('h2');
-		h2El.innerHTML = section.section;
-		sectionEl.appendChild(h2El);
-		section.items.map((item) => {
-			const itemEl = document.createElement('div');
-			itemEl.className = 'item';
-			Object.keys(item).map((key) => {
-				const pEl = document.createElement('p');
-				pEl.innerHTML = `${key}: ${item[key]}`;
-				itemEl.appendChild(pEl);
+function renderContent() {
+	document.addEventListener('DOMContentLoaded', function() {
+		const mainEl = document.getElementById('main');
+		jsonContent.map((section) => {
+			const sectionEl = document.createElement('section');
+			sectionEl.id = section.section;
+			sectionEl.className = 'section';
+			const h2El = document.createElement('h2');
+			h2El.innerHTML = section.section;
+			sectionEl.appendChild(h2El);
+			section.items.map((item) => {
+				const itemEl = document.createElement('div');
+				itemEl.className = 'item';
+				Object.keys(item).map((key) => {
+					const pEl = document.createElement('p');
+					pEl.innerHTML = `${key}: ${item[key]}`;
+					itemEl.appendChild(pEl);
+				});
+				sectionEl.appendChild(itemEl);
 			});
-			sectionEl.appendChild(itemEl);
-		});
-		mainEl.appendChild(sectionEl);
-	}
-	);
-});
+			mainEl.appendChild(sectionEl);
+		}
+		);
+	});
+}
+renderContent();
