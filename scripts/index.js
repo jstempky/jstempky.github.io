@@ -1,6 +1,7 @@
 const jsonContent = [
 	{
 		section: "education",
+		emoji: "🎓",
 		items: [
 			{
 				college: "Western Michigan University",
@@ -11,6 +12,7 @@ const jsonContent = [
 	},
 	{
 		section: "work",
+		emoji: "💼",
 		items: [
 			{
 				title: "Senior Consultant - Software Engineering",
@@ -28,7 +30,9 @@ const jsonContent = [
 	},
 	{
 		section: "skills",
+		emoji: "💻",
 		items: [
+
 			{
 				languages: "JavaScript, Python, SQL",
 				tools: "React, Node.js, Flask, Docker",
@@ -38,16 +42,12 @@ const jsonContent = [
 	},
 	{
 		section: "projects",
+		emoji: "🚀",
 		items: [
 			{
 				name: "Portfolio",
 				description: "Personal website to showcase my work",
 				tech: "React, HTML, CSS",
-			},
-			{
-				name: "Chat Application",
-				description: "Real-time chat application",
-				tech: "React, Node.js, Socket.io",
 			},
 		]
 	},
@@ -56,17 +56,12 @@ const jsonContent = [
 		items: [
 			{
 				email: "test@email.com",
-				phone: "123-456-7890",
 			},
 		]
 	},
 
 ]
-//
-//const anchorEl = document.getElementById("main");
-//const footerEl = document.getElementByClassName("footer");
-//anchorEl.innerHTML = "Joey";
-//footerEl.innerHTML = "Footer";
+
 function renderContent() {
 	document.addEventListener('DOMContentLoaded', function() {
 		const mainEl = document.getElementById('main');
@@ -75,7 +70,7 @@ function renderContent() {
 			sectionEl.id = section.section;
 			sectionEl.className = 'section';
 			const h2El = document.createElement('h2');
-			h2El.innerHTML = section.section;
+			h2El.innerHTML = section.section + ' ' + section.emoji;
 			sectionEl.appendChild(h2El);
 			section.items.map((item) => {
 				const itemEl = document.createElement('div');
