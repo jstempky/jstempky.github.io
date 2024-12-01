@@ -34,8 +34,8 @@ const jsonContent = [
 		items: [
 
 			{
-				languages: "JavaScript, Python, SQL",
-				tools: "React, Node.js, Flask, Docker",
+				"backend languages": "JavaScript/TypeScript, Python, SQL",
+				tools: "React/React-Native, Node.js, Flask, Docker",
 				cloud: "AWS, GCP",
 			},
 		]
