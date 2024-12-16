@@ -1,67 +1,72 @@
 {
-  "jsonContent": [
-    {
-      "section": "education",
-      "emoji": "🎓",
-      "items": [
-        {
-          "College": "Western Michigan University",
-          "Degree": "B.S.E. in Industrial & Entrepreneurial Engineering",
-          "Graduation": "December 2014"
-        }
-      ]
-    },
-    {
-      "section": "work",
-      "emoji": "💼",
-      "items": [
-        {
-          "Title": "Senior Consultant - Software Engineering",
-          "Company": "Inspire11",
-          "Duration": "July 2024 - Present",
-          "Location": "Chicago, IL (Remote)"
-        },
-        {
-          "Title": "Software Engineer",
-          "Company": "Integral",
-          "Duration": "March 2020 - July 2024",
-          "Location": "Royal Oak, MI (Remote)"
-        }
-      ]
-    },
-    {
-      "section": "skills",
-      "emoji": "💻",
-      "items": [
-        {
+	"jsonContent": [
+		{
+			"section": "education",
+			"emoji": "🎓",
+			"items": [
+				{
+					"College": "Western Michigan University",
+					"Degree": "B.S.E. in Industrial & Entrepreneurial Engineering",
+					"Graduation": "December 2014"
+				}
+			]
+		},
+		{
+			"section": "work",
+			"emoji": "💼",
+			"items": [
+				{
+					"Title": "Senior Consultant - Software Engineering",
+					"Company": "Inspire11",
+					"Duration": "July 2024 - Present",
+					"Location": "Chicago, IL (Remote)"
+				},
+				{
+					"Title": "Software Engineer",
+					"Company": "Integral",
+					"Duration": "March 2020 - July 2024",
+					"Location": "Royal Oak, MI (Remote)"
+				},
+				{
+					"Title": "Director of Manufacturing",
+					"Company": "Nextek Power Systems",
+					"Duration": "June 2018 - March 2022",
+					"Location": "Royal Oak, MI (Remote)"
+				}
+			]
+		},
+		{
+			"section": "skills",
+			"emoji": "💻",
+			"items": [
+				{
 					"Frontend languages": "JavaScript/Typsecript, HTML, CSS",
-          "Backend languages": "JavaScript/TypeScript, Python, GO, C",
+					"Backend languages": "JavaScript/TypeScript, Python, GO, C",
 					"Databases": "SQL, NoSQL",
-          "Cloud":  "Azure, GCP, Digital Ocean, Heroku",
+					"Cloud": "Azure, GCP, Digital Ocean, Heroku",
 					"Tools": "Vim/Neovim, tmux"
-        }
-      ]
-    },
-    {
-      "section": "projects",
-      "emoji": "🚀",
-      "items": [
-        {
-          "Name": "Portfolio",
-          "Description": "Personal website to showcase my work",
-          "Tech": "React, HTML, CSS"
-        }
-      ]
-    },
-    {
-      "section": "contact",
+				}
+			]
+		},
+		{
+			"section": "projects",
+			"emoji": "🚀",
+			"items": [
+				{
+					"Name": "Portfolio",
+					"Description": "Personal website to showcase my work",
+					"Tech": "React, HTML, CSS"
+				}
+			]
+		},
+		{
+			"section": "contact",
 			"emoji": "📇",
-      "items": [
-        {
-          "Email": "joey.stempky@gmail.com"
-        }
-      ]
-    }
-  ]
+			"items": [
+				{
+					"Email": "joey.stempky@gmail.com"
+				}
+			]
+		}
+	]
 }
-
