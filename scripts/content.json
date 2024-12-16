@@ -53,9 +53,10 @@
     },
     {
       "section": "contact",
+			"emoji": "📇",
       "items": [
         {
-          "email": "test@email.com"
+          "email": "joey.stempky@gmail.com"
         }
       ]
     }
