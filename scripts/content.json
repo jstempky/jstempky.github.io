@@ -5,9 +5,9 @@
       "emoji": "🎓",
       "items": [
         {
-          "college": "Western Michigan University",
-          "degree": "B.S.E. in Industrial & Entrepreneurial Engineering",
-          "graduation": "December 2014"
+          "College": "Western Michigan University",
+          "Degree": "B.S.E. in Industrial & Entrepreneurial Engineering",
+          "Graduation": "December 2014"
         }
       ]
     },
@@ -16,16 +16,16 @@
       "emoji": "💼",
       "items": [
         {
-          "title": "Senior Consultant - Software Engineering",
-          "company": "Inspire11",
-          "duration": "July 2024 - Present",
-          "location": "Chicago, IL (Remote)"
+          "Title": "Senior Consultant - Software Engineering",
+          "Company": "Inspire11",
+          "Duration": "July 2024 - Present",
+          "Location": "Chicago, IL (Remote)"
         },
         {
-          "title": "Software Engineer",
-          "company": "Integral",
-          "duration": "March 2020 - July 2024",
-          "location": "Royal Oak, MI (Remote)"
+          "Title": "Software Engineer",
+          "Company": "Integral",
+          "Duration": "March 2020 - July 2024",
+          "Location": "Royal Oak, MI (Remote)"
         }
       ]
     },
@@ -34,9 +34,11 @@
       "emoji": "💻",
       "items": [
         {
-          "backend languages": "JavaScript/TypeScript, Python, SQL",
-          "tools": "React/React-Native, Node.js, Flask, Docker",
-          "cloud": "AWS, GCP"
+					"Frontend languages": "JavaScript/Typsecript, HTML, CSS",
+          "Backend languages": "JavaScript/TypeScript, Python, GO, C",
+					"Databases": "SQL, NoSQL",
+          "Cloud":  "Azure, GCP, Digital Ocean, Heroku",
+					"Tools": "Vim/Neovim, tmux"
         }
       ]
     },
@@ -45,9 +47,9 @@
       "emoji": "🚀",
       "items": [
         {
-          "name": "Portfolio",
-          "description": "Personal website to showcase my work",
-          "tech": "React, HTML, CSS"
+          "Name": "Portfolio",
+          "Description": "Personal website to showcase my work",
+          "Tech": "React, HTML, CSS"
         }
       ]
     },
@@ -56,7 +58,7 @@
 			"emoji": "📇",
       "items": [
         {
-          "email": "joey.stempky@gmail.com"
+          "Email": "joey.stempky@gmail.com"
         }
       ]
     }
