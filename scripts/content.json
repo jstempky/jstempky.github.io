@@ -53,9 +53,9 @@
 			"emoji": "🚀",
 			"items": [
 				{
-					"Name": "Portfolio",
-					"Description": "Personal website to showcase my work",
-					"Tech": "React, HTML, CSS"
+					"Name": "Personal Website",
+					"Description": "Simple digital resume",
+					"Tech": "JavaScript, HTML, CSS"
 				}
 			]
 		},

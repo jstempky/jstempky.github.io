@@ -96,11 +96,23 @@ body {
 		flex-direction: column;
 		width: 100%;
 
+		.key {
+			color: var(--color-text);
+			font-size: 1.125rem;
+			text-transform: uppercase;
+			padding-right: 1rem;
+			text-shadow: 0 0 10px dodgerblue; 
+		}
+
 		h2 {
-			text-transform: capitalize;
+			text-transform: uppercase;
+			font-size: 4rem;
+			margin: 0;
 		}
 
 		p {
+			font-size: 1rem;
+			padding-left: 2rem;
 		}
 	}
 
