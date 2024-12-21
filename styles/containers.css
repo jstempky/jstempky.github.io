@@ -67,9 +67,20 @@ body {
 
 		@media (max-width: 800px) {
 			display: flex;
+			position: relative;
 
 			a {
 				font-size: 2rem;
+			}
+
+			.dropdown-menu {
+				display: none;
+				position: absolute;
+				top:100%;
+				right:100%;
+				background-color: red;
+				
+
 			}
 
 		}
