@@ -1,4 +1,5 @@
 @import url("constants/colors.css");
+@import url("constants/typography.css");
 
 html,
 body {
@@ -31,16 +32,9 @@ body {
 		font-size: 2rem;
 		white-space: nowrap;
 
-		@media (max-width: 900px) and (min-width: 768px) {
+		@media (max-width: 500px) {
 			font-size: 2rem;
-		}
-
-		@media (max-width: 768px) and (min-width: 600px) {
-			font-size: 4rem;
-		}
-
-		@media (max-width: 600px) {
-			font-size: 2em;
+			color: red;
 		}
 	}
 
@@ -55,29 +49,36 @@ body {
 		text-decoration: underline;
 	}
 
-}
-
-.nav-buttons {
-	display: none;
-
-	@media (min-width: 768px) {
+	.nav-buttons {
 		display: flex;
 		gap: 1rem;
-		text-transform: uppercase;
-		font-weight: 400;
-		letter-spacing: .1rem;
-		font-size: 1.5rem;
+
+		a {
+			font-size: 1rem;
+		}
+
+		@media (max-width: 800px) {
+			display: none;
+		}
 	}
-}
 
-.mobile-nav-buttons {
-	display: flex;
-	font-size: 3rem;
-
-	@media (min-width: 768px) {
+	.mobile-nav-buttons {
 		display: none;
+
+		@media (max-width: 800px) {
+			display: flex;
+
+			a {
+				font-size: 2rem;
+			}
+
+		}
 	}
 }
+
+
+
+
 
 .main {
 	display: flex;
@@ -88,7 +89,7 @@ body {
 	overflow-y: scroll;
 	flex: 1;
 	padding: .5rem 1rem 5rem .5rem;
-	
+
 	gap: 1rem;
 
 	.section {
@@ -101,18 +102,19 @@ body {
 			font-size: 1.125rem;
 			text-transform: uppercase;
 			padding-right: 1rem;
-			text-shadow: 0 0 10px dodgerblue; 
+			text-shadow: 0 0 10px dodgerblue;
 		}
 
 		h2 {
 			text-transform: uppercase;
 			font-size: 4rem;
+			letter-spacing: 2px;
 			margin: 0;
 		}
 
 		p {
 			font-size: 1rem;
-			padding-left: 2rem;
+			align-self: center;
 		}
 	}
 

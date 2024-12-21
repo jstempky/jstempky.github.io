@@ -1,0 +1,13 @@
+:root {
+	--primary-font: "Noto Sans Display", sans-serif;
+	
+	--font-largest: 5rem;
+	--font-large: 4rem;
+	--font-medium: 3rem;
+	--font-small: 2rem;
+	--font-smallest: 1rem;
+
+	--font-boldest: 600;
+	--font-bolder: 500;
+	--font-bold: 400;
+}
