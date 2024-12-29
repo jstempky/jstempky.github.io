@@ -65,6 +65,11 @@
 			"emoji": "🚀",
 			"items": [
 				{
+					"Name": "FitFort",
+					"Description": "Fitness App",
+					"Tech": "React-Native (TS), Python (Flask), Go"
+				},
+				{
 					"Name": "Personal Website",
 					"Description": "Simple digital resume",
 					"Tech": "JavaScript, HTML, CSS"
